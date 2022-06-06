@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body{
+  background-color: rgb(115, 129, 166);
+  margin: 20px;
+}
+.question-content {
+  font-size: 25px;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead,th {
+		background-color: #55608f;
+	}
+
+table{
+  width: 450px;
+  height: 120px;
+}
+
+
+/* Modal  */
+
+input[type="checkbox"]:checked ~ .modal,
+input[type="checkbox"]:checked ~ .modal-background {
+	display: block;
+}
+.modal-background {
+	width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9998;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;	
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+.modal > p {
+	padding: 15px;
+    margin: 0;
+}
+.modal-header {
+	background-color: #f9f9f9;
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box;
+    height: 50px;
+}
+.modal-header h3 {
+	margin: 0;
+    box-sizing: border-box;
+    padding-left: 15px;
+    line-height: 50px;
+    color: #4d4d4d;
+    font-size: 16px;
+    display: inline-block;
+}
+.modal-header label {
+	box-sizing: border-box;
+    border-left: 1px solid #dddddd;
+    float: right;
+    line-height: 50px;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}
+.modal-header label:hover img {
+	opacity: 0.6;
+}
+/* below is optional, it is just an example for the blue button */
+.example-label {
+	box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    background-color: #375d91;
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.example-label:hover {
+	background-color: #3c669f;
+}
