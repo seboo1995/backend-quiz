@@ -1,1 +1,0 @@
-mongodb+srv://sebair:24071995@nodetutorial.o08pg.mongodb.net/?retryWrites=true&w=majority
